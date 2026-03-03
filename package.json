@@ -6,10 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:generate": "npx prisma generate",
+    "db:push": "npx prisma db push",
+    "db:seed": "npx tsx prism/seed.ts"
   },
   "dependencies": {
-    "@prisma/client": "^7.4.2",
+    "@prisma/client": "^6.19.2",
     "bcryptjs": "^3.0.3",
     "jsonwebtoken": "^9.0.3",
     "next": "16.1.6",
