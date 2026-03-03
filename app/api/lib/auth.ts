@@ -1,6 +1,6 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { Role, User } from '../api/types';
+import { Role, User } from '../types';
 import { cookies } from 'next/headers';
 import { prisma } from './db';
 
@@ -37,6 +37,7 @@ export const getCurrentUser = async (): Promise<User | null> => {
     });
 
     if (!userFromDb) return null;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { password, ...user } = userFromDb;
     return user as User;
   } catch (error) {
