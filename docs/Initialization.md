@@ -11,3 +11,6 @@
    i. Add `prisma/schema.prisma` file with config and models.
    ii. Add scripts in `package.json` for prisma.
    iii. Run generate and push commands to create the schemas.
+6. Import prisma client to use in the repo in `lib/db.ts`.
+7. Create a helper function in `lib/db.ts`to check database connection.
+8. Create a health api to check database connection using rest api.
