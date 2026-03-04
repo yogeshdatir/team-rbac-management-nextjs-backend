@@ -34,3 +34,10 @@
     ix. Set cookie with token and other settings
     x. Handle errors gracefully with try/catch block
 12. Create logout endpoint that removes the cookie.
+13. Create login endpoint.
+    i. Validate required fields
+    ii. Validate user
+    iii. Validate password
+    iv. Generate token
+    v. Create response
+    vi. Add cookie to the response
