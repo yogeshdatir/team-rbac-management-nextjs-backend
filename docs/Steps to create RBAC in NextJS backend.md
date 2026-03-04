@@ -2,7 +2,7 @@
    `npx create-next-app@latest`
 2. Add auth and user api routes.
    ![alt text](image.png)
-   ![alt text](image-1.png)
+   ![alt text](image-2.png)
 3. Add dependencies.
    `npm install @prisma/client@6 prisma@6 bcryptjs jsonwebtoken`
    `npm install -D @types/jsonwebtoken`
@@ -42,3 +42,4 @@
     v. Create response
     vi. Add cookie to the response
 14. Create endpoint to get current user using `getCurrentUser()` auth utility function.
+15. Create get user by role and/or teamId as per role authority
