@@ -41,3 +41,4 @@
     iv. Generate token
     v. Create response
     vi. Add cookie to the response
+14. Create endpoint to get current user using `getCurrentUser()` auth utility function.
